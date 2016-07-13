@@ -1,0 +1,15 @@
+{
+  "name": "foo-bot",
+  "version": "1.0.0",
+  "description": "It's a bot!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ". ./.token && node app.js"
+  },
+  "author": "Colin Megill",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^3.5.1"
+  }
+}
